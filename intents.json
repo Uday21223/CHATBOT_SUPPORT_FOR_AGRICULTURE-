@@ -1,0 +1,1619 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hii"
+       ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+      
+    {
+      "tag": "cottonweather",
+      "patterns": ["which weather is suitable for cotton?",
+        "what is temperature for cotton crop?", 
+        "cotton crop grows in which temperature?",
+         "temprature for cotton ", 
+         "temperature require for cotton crop?"],
+      "responses": ["During active growth, the ideal air temperature is 70 to 100°F (21-37°C).", "ideal air temperature is 70 to 100°F.", "21-37°C temperature is required."]
+    },
+
+    {
+      "tag": "cottoncondition",
+      "patterns": ["which condition is suitable for cotton crop?", 
+        "which condition required for cotton crop?", 
+        "condition for cotton crop", 
+        "condition suitable for cotton",
+         "condition for more cotton crop production"],
+      "responses": ["It require a lot of heat and plenty of sunshine.", "It prefers warm and humid climate.","Cotton is a plant that needs a long frost-free period."]
+    },
+
+    {
+      "tag": "wheatweather",
+      "patterns": ["which weather is suitable for wheat?", 
+        "what is temperature for wheat crop?", 
+        "wheat grows in which temperature?",
+        "temperature for wheat", 
+        "temperature require for wheat crop?"],
+      "responses": ["The optimum growing temperature is about 25°C.", 
+        "minimum and maximum growth temperatures of 3° to 4°C and 30° to 32°C, respectively."]
+    },
+
+    {
+      "tag": "wheatcondition",
+      "patterns": ["which condition is suitable for wheat crop?", 
+        "which condition required for wheat crop?", 
+        "condition for wheat crop", "condition suitable for wheat", 
+        "condition for more wheat crop production", 
+        "which land is suitable for wheat crop"],
+      "responses": ["it needs 12 to 15 inches (31 to 38 centimeters) of water to produce a good crop.", "it needs a lot of sunshine, especially when the grains are filling.", "it grows best when the soil pH is between 6.0 and 7.0."]
+    },
+
+    {
+      "tag": "bajraweather",
+      "patterns": ["which weather is suitable for bajra?", 
+        "what is temperature for bajra crop?", 
+        "bajra grows in which temperature?", 
+        "temperature for bajra", 
+        "temperature require for bajra crop?"],
+      "responses": ["Ideal temperature for bajra cultivation is between 20 oC to 30 oC.", "temperature is between 20 oC to 30 oC."]
+    },
+    {
+      "tag": "bajracondition",
+      "patterns": ["which condition is suitable for bajra crop?", 
+        "which condition required for bajra crop?",
+         "condition for bajra crop", "which land is suitable for bajra crop"],
+      "responses": ["Bajra grows well in dry and warm climate conditions", "it's drought tolerant crop which requires low annual rainfall ranging between 40 cm to 60 cm.", "i'm here to solve your queries."]
+    },
+    {
+      "tag": "sugercaneweather",
+      "patterns": ["which weather is suitable for sugercane?", 
+        "what is temperature for sugercane crop?", 
+        "sugercane grows in which temperature?",
+        "temperature for sugercane"],
+      "responses": ["temperature is between 21°C to 27°C", "It grows well in hot and humid climate with a temperature of 21°C to 27°C "]
+    },
+    {
+      "tag": "sugercanecondition",
+      "patterns": ["which condition is suitable for sugercane crop?", 
+        "which condition required for sugercane crop?", 
+        "condition for sugercane crop","condition suitable for sugercane"],
+      "responses": ["annual rainfall require between 75cm.", "It is a tropical as well as a subtropical crop.", "It grows well in hot and humid climate with a temperature of 21°C to 27°C"]
+    },
+
+    {
+      "tag": "riceweather",
+      "patterns": ["which weather is suitable for rice?", 
+        "what is temperature for rice crop?", 
+        "rice grows in which temperature?",
+        "temperature for rice"],
+      "responses": ["The average temperature required throughout the life period of the crop ranges from 21 to 37º C.", "the average temperature is between 21 to 37ºC"]
+    },
+    {
+      "tag": "ricecondition",
+      "patterns": ["which condition is suitable for rice crop?", 
+        "which condition required for rice crop?", 
+        "condition for rice crop",
+        "condition suitable for rice"],
+      "responses": ["Rice crop needs a hot and humid climate.","Rice grows on a variety of soils like silts, loams and gravels.", "It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water.", "The average temperature required throughout the life period of the crop ranges from 21 to 37º C."]
+    },
+    {
+      "tag": "groundnutweather",
+      "patterns": ["which weather is suitable for groundnut?", 
+        "what is temperature for groundnut crop?", 
+        "groundnut grows in which temperature?",
+        "temperature for groundnut"],
+      "responses": ["It seems that plant will grow best when the mean temperature is from 21-26.5°C.", "It grows well with a temperature of 21°C to 26.5°C "]
+    },
+    {"tag": "groundnutcondition",
+      "patterns": ["which condition is suitable for groundnut crop?", 
+         "which condition required for groundnut crop?", 
+          "condition for groundnut crop",
+          "condition suitable for groundnut"],
+      "responses": ["it require well distributed rainfall at least 50 cm during growing season", "it grows in abundance of sunshine and relatively warm temperatures."]
+    },
+    {
+      "tag": "marketprice",
+      "patterns": ["What is the market price of rice?",
+        "rice price",
+        "wheat price",
+        "groundnut price",
+        "sugercane price",
+        "maize price",
+        "bajra price",
+        "How much is the cost of 10 kgs of wheat?", 
+        "What are the prices of sugarcane?"],
+      "responses": ["please visit our application.'https://agmarknet.gov.in/PriceAndArrivals/DatewiseCommodityReport.aspx'", "please visit our website for more detail.'https://agmarknet.gov.in/PriceAndArrivals/DatewiseCommodityReport.aspx", "i request you to please visit our website.'https://agmarknet.gov.in/PriceAndArrivals/DatewiseCommodityReport.aspx"]
+    },
+
+    {
+      "tag": "maizeweather",
+      "patterns": ["what is temperature for maize crop?", 
+        "maize grows in which temperature?", "temperature for maize"],
+      "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A temperature of 21°C- 27°C is suitable for its cultivation."]
+    },
+
+    {
+      "tag": "maizecondition",
+      "patterns": ["which condition is suitable for maize crop?", 
+        "which condition required for maize crop?", 
+        "condition suitable for maize", 
+        "land for maize crop"],
+    "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A 50-100cm rainfall is suitable for its cultivation.", "Alternate spells of rains and sunny weather are ideal for maize.", "It grows well in alluvial and red soils with good drainage."]
+    },
+    {
+      "tag": "farmerscheme",
+      "patterns": ["Important government policies for farmer", 
+        "indian government scheme for indian farmer", 
+        "which scheme is most helpful to indian farmer"],
+      "responses": ["PM-Kisan Scheme,Pradhan Mantri Kisan Maandhan yojana,Pradhan Mantri Fasal Bima Yojana (PMFBY),Paramparagat Krishi Vikas Yojana (PKVY),etc.", "PM-Kisan Scheme,Pradhan Mantri Krishi Sinchai Yojana (PMKSY),etc.", "Pradhan Mantri Kisan Maandhan yojana, Pradhan Mantri Fasal Bima Yojana (PMFBY),etc. for more details please visit our website."]
+    },
+    {
+      "tag": "farmerpmkisan",
+      "patterns": ["what is PM kisan scheme", 
+        "PM kisan", "which are benefits of PM kisan scheme?", 
+        "how PM kisan scheme is helpful to people?"],
+      "responses": ["Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a Central Sector scheme with 100% funding from Government of India. for more details visit pmkisan.gov.in", "please visit our website pmkisan.gov.in", "i request you to please visit our website pmkisan.gov.in", "Under the Scheme an income support of Rs. 6000/- per year is provided to all farmer families across the country in three equal installments of Rs. 2000/- each every four months."]
+    },
+    {
+      "tag": "agriculture_info",
+      "patterns": ["Tell me about agriculture", 
+        "What is agriculture", "Agricultural practices"],
+      "responses": ["Agriculture involves cultivation of crops and raising of livestock. It plays a vital role in food production."]
+    },
+    {
+      "tag": "crop_info",
+      "patterns": ["Crop information", "Tell me about crops", 
+        "Crop varieties"],
+      "responses": ["Crops are plants cultivated for food, fiber, and other products. There are various crop varieties adapted to different climates."]
+    },
+    {
+      "tag": "rice_info",
+      "patterns": ["Tell me about rice cultivation", 
+        "How to grow rice", "Rice varieties", 
+        "Rice farming techniques"],
+      "responses": ["Rice is a staple food for over half of the world's population. It is commonly grown in flooded fields known as paddies."]
+    },
+
+    {
+      "tag": "wheat_info",
+      "patterns": ["Wheat cultivation practices", 
+        "Types of wheat crops", 
+        "Growing wheat", 
+        "Wheat farming tips"],
+      "responses": ["Wheat is a major cereal crop. It is grown in diverse environments and is a primary ingredient in many food products."]
+    },
+    {
+      "tag": "corn_info",
+      "patterns": ["Corn cultivation methods", 
+        "Types of corn crops", 
+        "Growing corn", 
+        "Corn farming tips"],
+      "responses": ["Corn, also known as maize, is a versatile crop used for food, animal feed, and industrial products."]
+    },
+    {
+      "tag": "crop_disease_identification",
+      "patterns": ["What is affecting my crops?", 
+        "Identify crop disease", 
+        "Crop problem"],
+      "responses": ["I can help identify crop diseases. Please describe the symptoms  better assistance."]
+    },
+    {
+      "tag": "common_crop_diseases",
+      "patterns": ["Tell me about common crop diseases", 
+        "List of crop diseases", 
+        "Major plant diseases"],
+      "responses": ["Common crop diseases include powdery mildew, rust, blight, and damping-off. Each has specific symptoms and treatment methods."]
+    },
+    {
+      "tag": "prevent_crop_disease",
+      "patterns": ["How to prevent crop diseases?", 
+        "Crop disease prevention methods", 
+        "Protecting crops from diseases"],
+      "responses": ["To prevent crop diseases, practice crop rotation, use disease-resistant varieties, maintain proper irrigation, and apply fungicides when necessary."]
+    },
+    {
+      "tag": "treat_crop_disease",
+      "patterns": ["How to treat crop diseases?", 
+        "Crop disease treatment options", 
+        "Dealing with plant diseases"],
+      "responses": ["Treatment for crop diseases varies. Cultural practices, fungicides, and biological controls are common methods. Consult with local agricultural experts for specific guidance."]
+    },
+    {
+      "tag": "paddy_crop_diseases",
+      "patterns": ["What causes brown spot in paddy?", 
+        "How to identify sheath blight in rice?", 
+        "Paddy diseases", 
+        "Common diseases of rice crop"],
+      "responses": ["Brown spot in paddy is caused by the fungus Bipolaris oryzae. It leads to small, dark spots on leaves.",
+                     "Sheath blight in rice is identified by water-soaked lesions on sheaths. It's caused by the fungus Rhizoctonia solani.",
+                     "Common diseases of rice include blast, bacterial blight, and tungro."]
+    },
+    {
+      "tag": "paddy_crop_diseases",
+      "patterns": ["Preventive measures for bacterial leaf blight in paddy", 
+        "Management of rice blast disease", 
+        "How to control stem rot in rice?"],
+      "responses": ["To prevent bacterial leaf blight, use disease-resistant varieties and apply copper-based fungicides.",
+                     "Rice blast can be managed by planting resistant varieties and practicing proper water management.",
+                     "Control stem rot in rice by avoiding waterlogging and applying fungicides like carbendazim."]
+    },
+    {
+      "tag": "paddy_crop_diseases",
+      "patterns": ["What is the impact of sheath rot on rice yield?", 
+        "Treatment for narrow brown leaf spot", 
+        "Yellowing of paddy leaves"],
+      "responses": ["Sheath rot can significantly reduce rice yield. Apply fungicides and ensure proper drainage to manage it.",
+                     "Narrow brown leaf spot can be treated with fungicides containing propiconazole.",
+                     "Yellowing of paddy leaves may indicate nutrient deficiency or diseases. Conduct soil tests for proper diagnosis."]
+    },
+    {
+      "tag": "paddy_planting",
+      "patterns": ["How to plant paddy?", 
+        "Steps for cultivating rice", 
+        "Paddy cultivation process"],
+      "responses": [
+        "To plant paddy, prepare a well-leveled field and soak the seeds overnight. Sow the seeds in rows with proper spacing, and ensure sufficient water availability.",
+        "Paddy cultivation involves selecting suitable varieties, preparing the field, and transplanting seedlings. Maintain proper water levels throughout the growing season.",
+        "Steps for cultivating rice include land preparation, seedbed establishment, seedling transplantation, and proper water management during the cropping period."
+      ]
+    },
+    {
+      "tag": "paddy_growing_state",
+      "patterns": ["In which state in India is paddy grown?", 
+        "Major paddy-producing states in India", 
+        "Where is rice cultivation prominent in India?"],
+      "responses": [
+        "Paddy is grown in various states in India, with major production in states like West Bengal, Uttar Pradesh, Punjab, Andhra Pradesh, and Tamil Nadu.",
+        "The prominent paddy-producing states in India include Punjab, Haryana, West Bengal, Uttar Pradesh, and Bihar.",
+        "Rice cultivation is prominent in states like West Bengal, Uttar Pradesh, Punjab, Andhra Pradesh, and Tamil Nadu due to suitable climatic conditions and water availability."
+      ]
+    },
+    {
+      "tag": "wheat_planting",
+      "patterns": ["How to plant wheat?", 
+        "Steps for wheat cultivation", 
+        "Best practices for sowing wheat seeds"],
+      "responses": [
+        "To plant wheat, prepare well-drained soil with good fertility. Sow wheat seeds at the recommended depth and spacing.",
+        "Wheat cultivation involves choosing the right variety, preparing the soil, and sowing seeds at the correct time. Follow recommended practices for optimal yield.",
+        "Ensure successful wheat planting by providing adequate irrigation, managing pests, and applying necessary fertilizers during the growing season."
+      ]
+    },
+    {
+      "tag": "wheat_growing_states",
+      "patterns": ["In which state in India is wheat grown?", 
+        "Major wheat-producing states", 
+        "Top wheat cultivation regions"],
+      "responses": [
+        "Wheat is grown in several states in India, including Punjab, Haryana, Uttar Pradesh, Madhya Pradesh, and Rajasthan.",
+        "Major wheat-producing states in India are Punjab and Haryana, known for their fertile lands and favorable climate for wheat cultivation.",
+        "Top wheat cultivation regions in India include the Indo-Gangetic plains, where the soil and climate are suitable for high-yield wheat crops."
+      ]
+    },
+    {
+      "tag": "ragi_cultivation",
+      "patterns": ["How to plant ragi?", 
+        "Ragi cultivation guide", 
+        "Steps to grow ragi"],
+      "responses": [
+        "To plant ragi, prepare a well-drained field. Sow ragi seeds at a depth of 2-3 cm. Ensure proper spacing between rows and water the field regularly.",
+        "Ragi cultivation involves selecting a suitable field, preparing the soil, and sowing ragi seeds. Follow recommended practices for optimal yield.",
+        "Grow ragi by choosing a location with good sunlight. Use quality seeds, and provide adequate irrigation. Harvest when the crop is ready."
+      ]
+    },
+    {
+      "tag": "ragi_cultivation",
+      "patterns": ["Best season for ragi cultivation", 
+        "In which months to plant ragi?", 
+        "Climate requirements for ragi"],
+      "responses": [
+        "The best season for ragi cultivation is the monsoon season. Sow ragi seeds at the beginning of the monsoon for optimal growth.",
+        "In India, ragi is usually planted during the monsoon months, typically from June to August months . It requires a tropical climate for successful cultivation.",
+        "Ragi thrives in warm and tropical climates. Ensure temperatures are between 20-30 degrees Celsius for successful cultivation."
+     ]
+   },
+   {
+    "tag": "wheat_disease",
+    "patterns": ["What are common wheat diseases?", 
+      "Tell me about wheat crop diseases", 
+      "Wheat plant problems"],
+    "responses": [
+      "Common wheat diseases include rust, smut, and blight. Do you have a specific disease you'd like more information about?",
+      "Wheat crops are susceptible to diseases like rust and smut. If you're facing issues, let me know the symptoms for more specific advice."
+     ]
+   },
+   {
+    "tag": "rust_disease",
+    "patterns": ["How to identify wheat rust?", 
+      "Wheat rust symptoms", 
+      "Dealing with rust in wheat"],
+    "responses": [
+      "Wheat rust appears as reddish-brown pustules on leaves. Early detection is crucial. Consider using fungicides and resistant varieties for control.",
+      "Rust in wheat is identified by orange-red powdery spores. Timely application of fungicides and planting resistant varieties can help manage the disease."
+     ]
+   },
+   {
+    "tag": "smut_disease",
+    "patterns": ["Preventing wheat smut",
+     "Smut symptoms in wheat",
+      "Control measures for wheat smut"],
+    "responses": [
+      "Wheat smut causes black fungal masses on grains. Use treated seeds, practice crop rotation, and employ fungicides for effective smut prevention.",
+      "Smut in wheat is characterized by black masses on grain. Employing disease-free seeds and adopting proper crop management practices can help control it."
+     ]
+   },
+   {
+    "tag": "ragi_crop_diseases_solutions",
+    "patterns": ["What are the common diseases in ragi crops?", 
+      "How to treat ragi crop diseases?", 
+      "Ragi crop issues"],
+    "responses": ["Common diseases in ragi crops include blast, leaf spot, and downy mildew. For blast, use resistant varieties and proper field sanitation."]
+  },
+  {
+    "tag": "ragi_crop_diseases_solutions",
+    "patterns": ["Tell me about ragi crop pests",
+       "How to control pests in ragi cultivation?", 
+       "Ragi crop insect issues"],
+    "responses": ["Major pests in ragi cultivation are shoot fly and stem borer. Implementing integrated pest management (IPM) practices can help control these pests."]
+  },
+  {
+    "tag": "ragi_crop_diseases_solutions",
+    "patterns": ["Yellowing in my ragi plants", 
+      "Ragi crop leaves turning yellow", 
+      "How to address ragi plant discoloration?"],
+    "responses": ["Yellowing in ragi plants may indicate nutrient deficiency or water stress. Conduct soil tests to identify nutrient deficiencies and adjust fertilization."]
+  },
+  {
+    "tag": "ragi_crop_diseases_solutions",
+    "patterns": ["Ragi crop care tips", 
+      "Best practices for healthy ragi cultivation", 
+      "How to ensure good ragi crop yield?"],
+    "responses": ["Ensure proper spacing between ragi plants, provide adequate water, and monitor for diseases and pests. Implementing crop rotation can also benefit overall crop health."]
+  },
+  {
+    "tag": "maize_crop_disease",
+    "patterns": ["What are common diseases in maize?", 
+      "How to treat maize crop diseases?", 
+      "Maize plant health issues"],
+    "responses": ["Common diseases in maize include rust, smut, and leaf blight. To treat them, use fungicides and maintain proper field hygiene."]
+  },
+  {
+    "tag": "rust_in_maize",
+    "patterns": ["How to identify rust in maize?", 
+      "Treatment for maize rust", 
+      "Maize rust prevention"],
+    "responses": ["Rust in maize appears as reddish-brown spots on leaves. Use fungicides and choose rust-resistant maize varieties for prevention."]
+  },
+  {
+    "tag": "maize_leaf_blight",
+    "patterns": ["Symptoms of maize leaf blight", 
+      "Treating leaf blight in maize", 
+      "Preventing maize leaf blight"],
+    "responses": ["Maize leaf blight shows as brown lesions on leaves. Apply fungicides and practice crop rotation to prevent leaf blight."]
+  },
+  {
+    "tag": "smut_in_maize",
+    "patterns": ["How to control smut in maize?", 
+      "Identifying smut in maize plants", 
+      "Preventing maize smut"],
+    "responses": ["Smut in maize results in black fungal growth. Use fungicides and choose smut-resistant maize varieties to prevent smut."]
+  },
+  {
+    "tag": "maize_cultivation",
+    "patterns": ["How to cultivate maize?", 
+      "Maize farming guide", 
+      "Steps for growing maize"],
+    "responses": ["Maize cultivation involves preparing the soil, planting seeds, providing adequate water and nutrients, and protecting the crop from pests. It's essential to follow a proper crop rotation plan."]
+  },
+  {
+    "tag": "best_states_for_maize_cultivation",
+    "patterns": ["Which states in India are best for maize cultivation?",
+     "Top maize-producing states", 
+     "Maize farming regions in India"],
+    "responses": ["In India, major maize-producing states include Karnataka, Andhra Pradesh, Maharashtra, Uttar Pradesh, and Rajasthan. These regions have favorable climatic conditions for maize cultivation."]
+  },
+  {
+    "tag": "maize_varieties_in_india",
+    "patterns": ["Popular maize varieties in India", 
+      "Best maize seeds for Indian farmers",
+      "Maize seed recommendations"],
+    "responses": ["Some popular maize varieties in India are HM4, Ganga, Shaktiman, and Vivek. Choose varieties based on your region's climate and soil conditions."]
+  },
+  {
+    "tag": "maize_cultivation_steps",
+    "patterns": ["Step-by-step guide for maize cultivation",
+     "Maize farming process",
+     "How to start maize farming"],
+    "responses": ["1. Prepare the soil by plowing and adding organic matter. 2. Plant maize seeds at the right spacing and depth. 3. Provide adequate water during the growing season. 4. Apply fertilizers based on soil nutrient levels. 5. Monitor for pests and diseases and take appropriate measures."]
+  },
+  {
+    "tag": "drip_irrigation",
+    "patterns": ["Tell me about drip irrigation", 
+      "How does drip irrigation work?", 
+      "Advantages of drip irrigation"],
+    "responses": ["Drip irrigation is a method of watering plants by applying water directly to the base of the plant using a system of tubes, pipes, and emitters. It conserves water, reduces weed growth, and ensures targeted water delivery."]
+  },
+  {
+    "tag": "drip_irrigation_setup",
+    "patterns": ["How to set up a drip irrigation system", 
+      "Drip irrigation installation steps", 
+      "Setting up drip irrigation in my garden"],
+    "responses": ["1. Plan your layout and measure the water flow. 2. Purchase quality drip tubing, emitters, and connectors. 3. Lay out the tubing according to your plant arrangement. 4. Connect emitters to the tubing near each plant. 5. Test the system to ensure proper water distribution."]
+  },
+  {
+    "tag": "best_crops_for_drip_irrigation",
+    "patterns": ["Crops suitable for drip irrigation", 
+      "Drip irrigation and crop types", 
+      "Which plants benefit from drip irrigation?"],
+    "responses": ["Drip irrigation is suitable for a variety of crops, including tomatoes, peppers, cucumbers, strawberries, and many others. It's especially beneficial for plants that require consistent moisture."]
+  },
+  {
+    "tag": "drip_irrigation_maintenance",
+    "patterns": ["How to maintain a drip irrigation system",
+     "Drip irrigation upkeep tips",
+     "Ensuring the longevity of drip irrigation"],
+    "responses": ["Regularly check for clogs or leaks in the tubing. Flush the system to prevent mineral buildup. Replace any damaged emitters. Inspect the system at the beginning of each growing season for optimal performance."]
+  },
+  {
+    "tag": "betel_nut_cultivation",
+    "patterns": ["How to cultivate betel nut?",
+     "Betel nut farming techniques", "Growing betel nut", 
+     "Cultivation practices for betel nut"],
+    "responses": ["Betel nut cultivation requires well-drained soil, warm climate, and regular watering. It's usually propagated through seeds or seedlings."]
+  },
+  {
+    "tag": "betel_nut_varieties",
+    "patterns": ["Varieties of betel nut in India", 
+      "Different types of betel nuts", 
+      "Popular betel nut species"],
+    "responses": ["In India, common varieties of betel nut include 'Malabar', 'Siri Lankan', and 'Bangladeshi'. Each has unique characteristics."]
+  },
+  {
+    "tag": "betel_nut_states_in_India",
+    "patterns": ["Which states cultivate betel nut in India?", 
+      "Major betel nut producing states", 
+      "Top betel nut farming regions"],
+    "responses": ["Betel nut is extensively cultivated in states like Karnataka, Kerala, Assam, West Bengal, and Andhra Pradesh in India."]
+  },
+  {
+    "tag": "betel_nut_disease",
+    "patterns": ["What are common diseases in betel nut cultivation?", 
+      "Betel nut tree diseases", 
+      "How to identify betel nut diseases?"],
+    "responses": [
+      "Common diseases in betel nut cultivation include leaf spot, root rot, and stem bleeding.",
+      "Betel nut tree diseases can be identified through visual inspection of leaves, stems, and overall tree health."
+    ]
+  },
+  {
+    "tag": "leaf_spot_solution",
+    "patterns": ["How to treat betel nut leaf spot?",
+     "Leaf spot in betel nut trees", 
+     "Preventive measures for leaf spot"],
+    "responses": [
+      "To treat betel nut leaf spot, use fungicides recommended for the specific pathogen. Ensure proper spacing between trees for air circulation.",
+      "Applying copper-based fungicides and practicing good orchard hygiene can help control and prevent leaf spot in betel nut trees."
+    ]
+  },
+  {
+  "tag": "root_rot_solution",
+  "patterns": ["Methods to control betel nut root rot", 
+    "Preventing root rot in betel nut cultivation", 
+    "Root rot symptoms and solutions"],
+  "responses": [
+    "To control betel nut root rot, improve soil drainage, avoid waterlogged conditions, and use well-draining soil.",
+    "Implementing proper irrigation practices and treating the soil with fungicides can help prevent and control root rot in betel nut cultivation."
+   ]
+ },
+ {
+  "tag": "stem_bleeding_solution",
+  "patterns": ["Dealing with stem bleeding in betel nut trees",
+   "How to stop stem bleeding?",
+   "Stem bleeding prevention"],
+  "responses": [
+    "Stem bleeding in betel nut trees may be controlled by applying copper-based fungicides and pruning affected branches.",
+    "Prevent stem bleeding by maintaining proper tree health, avoiding injuries to the trunk, and implementing a regular fungicide spray schedule."
+  ]
+ },
+ {
+  "tag": "coconut_disease",
+  "patterns": ["What causes yellowing of coconut leaves?", 
+    "How to treat yellowing leaves in coconut trees?", 
+    "Coconut tree leaf discoloration",
+    "How to control coconut mites?",
+    "Dealing with mites on coconut trees",
+    "Coconut tree mite infestation",
+    "What is the remedy for coconut tree wilting?",
+    "How to manage coconuttree root rot?",
+    "Preventing coconut tree rust"
+    ],
+  "responses": ["Yellowing of coconut leaves can be caused by nutrient deficiency. Consider fertilizing the soil with appropriate nutrients.",
+       "To control coconut mites, use natural predators like predatory mites or consider using neem oil as a natural pesticide.",
+       "Coconut tree wilting may be caused by fungal infections. Apply appropriate fungicides and ensure proper drainage.",
+       "Root rot in coconut trees is often due to waterlogged soil. Improve drainage and avoid overwatering to prevent root rot",
+       "Coconut tree rust is a fungal disease. Apply fungicides, and ensure proper aeration to prevent rust development."]
+ },
+ 
+
+{
+  "tag": "grape_disease",
+  "patterns": [
+    "What are common diseases in grape cultivation?",
+    "How to treat grape diseases?",
+    "Tell me about grape plant health",
+    "Dealing with grape pests and diseases"
+  ],
+  "responses": [
+    "Grapes can be affected by diseases like powdery mildew, downy mildew, and black rot. Proper pruning and fungicide application are common treatments.",
+    "Maintaining good air circulation and using fungicides can help prevent and treat grape diseases.",
+    "Grape plant health is crucial for a successful harvest. Regular inspection and timely intervention can mitigate diseases.",
+    "Identifying and addressing grape pests and diseases early is essential for a healthy vineyard."
+  ]
+},
+{"tag": "greeting",
+   "patterns": ["Hi", "hello!", "hey" ,"namaste"],
+   "responses": ["Hello, thanks for visiting.", "Good to see you.", "Hi there, how can I help?","hello"]
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye"],
+   "responses": ["See you later., thanks for visiting.", "Have a nice day.", "Bye! Come back again soon."]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful"],
+   "responses": ["Happy to help!", "Any time!", "My pleasure."]
+  },
+  {"tag": "hours",
+   "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+   "responses": ["We're open every day 9am-9pm.", "Our hours are 9am-9pm every day."]
+  },
+  {"tag": "buy",
+   "patterns": ["how i can buy crops online?", "how i can buy crops from farmer?" ],
+   "responses": ["Please visit our website https://farmer.gov.in/"]
+  },
+  {"tag": "sell",
+   "patterns": ["how I can sell crops online?", "how I can sell my crops?", "best way to sell product?" , "how farmer can sell their product?"],
+   "responses": ["Please visit our website https://farmer.gov.in/"]
+  },
+  {"tag": "opentoday",
+   "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+   "responses": ["We're open every day from 9am-9pm.", "Our hours are 9am-9pm every day."]
+  },
+  {"tag": "family",
+   "patterns": ["Who is your father?", "What is your father's name?", "What is your mother's name?","Do you have parents?" ,"Do you have siblings?" ],
+   "responses": ["i don't have knowledge about my family."]
+  },
+  {"tag": "sarcasm",
+   "patterns": ["Are you a God?", "How old are you?", "Are you a man?","Are you a bot?", "Do you have a job?" ,"Who is your best friend?","Am I your friend?"],
+   "responses": ["i'm not able to understand your question.", "Please ask some related questions."]
+  },
+{"tag": "wellness",
+   "patterns": ["How are you?", "How you doing?", "How are you doing?","Are you doing well?", "Are you okay?" ,"Are you fine?","Are you doing okay?"],
+   "responses": ["i'm cool.", "always cool.", "i'm ok.", "i'm fine."]
+  },
+{"tag": "enquireaboutday",
+   "patterns": ["How was your day?", "How is your day going?", "How is your day?"],
+   "responses": ["It's been great.", "It's been good."]
+  },
+{"tag": "askinghelp",
+   "patterns": ["I need help!", "Need help!", "Help me please", "Help me", "Can you do something for me?", "Answer my question"],
+   "responses": ["i'm here to help you.", "i can help you.", "i'm here to solve your queries."]
+  },
+{"tag": "outofscope",
+   "patterns": ["Who is the President?", "Who is the Prime Minister?", "What is my mother's name?", "Are you a supporter of BJP?", "Are you active in politics?"],
+   "responses": ["your question is out of my knowledge.", "i'm not able to answer your question.", "i don't have knowledge about that."]
+  },
+{"tag": "cottonweather",
+   "patterns": ["which weather is suitable for cotton?", "what is temperature for cotton crop?", "cotton crop grows in which temperature?", "temprature for cotton ", "temperature require for cotton crop?"],
+   "responses": ["During active growth, the ideal air temperature is 70 to 100°F (21-37°C).", "ideal air temperature is 70 to 100°F.", "21-37°C temperature is required."]
+  },
+{"tag": "cottoncondition",
+   "patterns": ["which condition is suitable for cotton crop?", "which condition required for cotton crop?", "condition for cotton crop", "condition suitable for cotton", "condition for more cotton crop production"],
+   "responses": ["It require a lot of heat and plenty of sunshine.", "It prefers warm and humid climate.","Cotton is a plant that needs a long frost-free period."]
+  },
+{"tag": "wheatweather",
+   "patterns": ["which weather is suitable for wheat?", "what is temperature for wheat crop?", "wheat grows in which temperature?","temperature for wheat", "temperature require for wheat crop?"],
+   "responses": ["The optimum growing temperature is about 25°C.", "minimum and maximum growth temperatures of 3° to 4°C and 30° to 32°C, respectively."]
+  },
+{"tag": "wheatcondition",
+   "patterns": ["which condition is suitable for wheat crop?", "which condition required for wheat crop?", "condition for wheat crop", "condition suitable for wheat", "condition for more wheat crop production", "which land is suitable for wheat crop"],
+   "responses": ["it needs 12 to 15 inches (31 to 38 centimeters) of water to produce a good crop.", "it needs a lot of sunshine, especially when the grains are filling.", "it grows best when the soil pH is between 6.0 and 7.0."]
+  },
+{"tag": "bajraweather",
+   "patterns": ["which weather is suitable for bajra?", "what is temperature for bajra crop?", "bajra grows in which temperature?", "temperature for bajra", "temperature require for bajra crop?"],
+   "responses": ["Ideal temperature for bajra cultivation is between 20 oC to 30 oC.", "temperature is between 20 oC to 30 oC."]
+  },
+{"tag": "bajracondition",
+   "patterns": ["which condition is suitable for bajra crop?", "which condition required for bajra crop?", "condition for bajra crop", "which land is suitable for bajra crop"],
+   "responses": ["Bajra grows well in dry and warm climate conditions", "it's drought tolerant crop which requires low annual rainfall ranging between 40 cm to 60 cm.", "i'm here to solve your queries."]
+  },
+{"tag": "sugercaneweather",
+   "patterns": ["which weather is suitable for sugercane?", "what is temperature for sugercane crop?", "sugercane grows in which temperature?","temperature for sugercane"],
+   "responses": ["temperature is between 21°C to 27°C", "It grows well in hot and humid climate with a temperature of 21°C to 27°C "]
+  },
+{"tag": "sugercanecondition",
+   "patterns": ["which condition is suitable for sugercane crop?", "which condition required for sugercane crop?", "condition for sugercane crop","condition suitable for sugercane"],
+   "responses": ["annual rainfall require between 75cm.", "It is a tropical as well as a subtropical crop.", "It grows well in hot and humid climate with a temperature of 21°C to 27°C"]
+  },
+{"tag": "riceweather",
+   "patterns": ["which weather is suitable for rice?", "what is temperature for rice crop?", "rice grows in which temperature?","temperature for rice"],
+   "responses": ["The average temperature required throughout the life period of the crop ranges from 21 to 37º C.", "the average temperature is between 21 to 37ºC"]
+  },
+{"tag": "ricecondition",
+   "patterns": ["which condition is suitable for rice crop?", "which condition required for rice crop?", "condition for rice crop","condition suitable for rice"],
+   "responses": ["Rice crop needs a hot and humid climate.","Rice grows on a variety of soils like silts, loams and gravels.", "It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water.", "The average temperature required throughout the life period of the crop ranges from 21 to 37º C."]
+  },
+{"tag": "groundnutweather",
+   "patterns": ["which weather is suitable for groundnut?", "what is temperature for groundnut crop?", "groundnut grows in which temperature?","temperature for groundnut"],
+   "responses": ["It seems that plant will grow best when the mean temperature is from 21-26.5°C.", "It grows well with a temperature of 21°C to 26.5°C "]
+  },
+{"tag": "groundnutcondition",
+   "patterns": ["which condition is suitable for groundnut crop?", "which condition required for groundnut crop?", "condition for groundnut crop","condition suitable for groundnut"],
+   "responses": ["it require well distributed rainfall at least 50 cm during growing season", "it grows in abundance of sunshine and relatively warm temperatures."]
+  },
+{"tag": "marketprice",
+   "patterns": ["What is the market price of rice?", "How much is the cost of 10 kgs of wheat?", "What are the prices of sugarcane?"],
+   "responses": ["please visit our application.", "please visit our website for more detail.", "i request you to please visit our website."]
+  },
+{"tag": "wassup",
+   "patterns": ["Wassup?", "What are you doing?", "What is up with you?", "What are you up to?", "How is it going?"],
+   "responses": ["i'm just chilling.", "i am enjoying day.", "i'm fine."]
+  },
+{"tag": "maizeweather",
+   "patterns": ["what is temperature for maize crop?", "maize grows in which temperature?", "temperature for maize"],
+   "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A temperature of 21°C- 27°C is suitable for its cultivation."]
+  },
+{"tag": "maizecondition",
+   "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
+   "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A 50-100cm rainfall is suitable for its cultivation.", "Alternate spells of rains and sunny weather are ideal for maize.", "It grows well in alluvial and red soils with good drainage."]
+  },
+{"tag": "farmerscheme",
+   "patterns": ["Important government policies for farmer", "indian government scheme for indian farmer", "which scheme is most helpful to indian farmer"],
+   "responses": ["PM-Kisan Scheme,Pradhan Mantri Kisan Maandhan yojana,Pradhan Mantri Fasal Bima Yojana (PMFBY),Paramparagat Krishi Vikas Yojana (PKVY),etc.", "PM-Kisan Scheme,Pradhan Mantri Krishi Sinchai Yojana (PMKSY),etc.", "Pradhan Mantri Kisan Maandhan yojana, Pradhan Mantri Fasal Bima Yojana (PMFBY),etc. for more details please visit our website."]
+  },
+{"tag": "farmerpmkisan",
+   "patterns": ["what is PM kisan scheme", "PM kisan", "which are benefits of PM kisan scheme?", "how PM kisan scheme is helpful to people?"],
+   "responses": ["Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a Central Sector scheme with 100% funding from Government of India. for more details visit pmkisan.gov.in", "please visit our website pmkisan.gov.in", "i request you to please visit our website pmkisan.gov.in", "Under the Scheme an income support of Rs. 6000/- per year is provided to all farmer families across the country in three equal installments of Rs. 2000/- each every four months."]
+  },
+{"tag": "website",
+   "patterns": ["recommend an agricultural website"],
+   "responses": ["vist this site ' http://127.0.0.1:5000'"]
+  },
+{
+  "tag": "greeting",
+  "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day", "Good afternoon", "Good evening", "hii", "hiii", "hello"],
+  "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Hey! What can I do for you?", "Hello! Welcome. How can I assist you?", "Good day! How may I help you?", "Good afternoon! How can I assist you?", "Good evening! How can I help you?", "Hello! How can I assist you?", "Hello! Thanks for visiting."]
+},
+{
+  "tag": "government_schemes_agriculture",
+  "patterns": ["What are some government schemes related to agriculture?", "Can you list some agriculture-related government schemes?", "I'm interested in government schemes for agriculture.", "What support does the government offer for farmers?", "Tell me about agricultural schemes by the government.", "Are there any government initiatives for farmers?", "Government programs for agriculture?"],
+  "responses": ["Certainly! Some government schemes related to agriculture include Pradhan Mantri Kisan Samman Nidhi (PM-KISAN), Pradhan Mantri Fasal Bima Yojana (PMFBY), National Mission for Sustainable Agriculture (NMSA), National Food Security Mission (NFSM), Rashtriya Krishi Vikas Yojana (RKVY), and Paramparagat Krishi Vikas Yojana (PKVY)."]
+},
+{
+  "tag": "pm_kisan",
+  "patterns": ["What is PM-KISAN?", "Can you explain PM-KISAN?", "Details about PM-KISAN", "How does PM-KISAN work?", "What is the full form of PM-KISAN?", "Purpose of PM-KISAN?"],
+  "responses": ["PM-KISAN stands for Pradhan Mantri Kisan Samman Nidhi. It's an initiative by the Government of India to provide direct income support to small and marginal farmers. Under this scheme, eligible farmers receive financial assistance of Rs. 6,000 per year in three equal installments."]
+},
+{
+  "tag": "pmfby",
+  "patterns": ["What is PMFBY?", "Can you explain PMFBY?", "Details about PMFBY", "How does PMFBY work?", "What is the full form of PMFBY?", "Purpose of PMFBY?"],
+  "responses": ["PMFBY stands for Pradhan Mantri Fasal Bima Yojana. It's an agricultural insurance scheme aimed at providing insurance coverage and financial support to farmers in the event of crop failure due to natural calamities, pests, or diseases. The scheme helps in stabilizing farmers' income and ensures their financial stability."]
+},
+{
+  "tag": "nmsa",
+  "patterns": ["What is NMSA?", "Can you explain NMSA?", "Details about NMSA", "How does NMSA work?", "What is the full form of NMSA?", "Purpose of NMSA?"],
+  "responses": ["NMSA stands for National Mission for Sustainable Agriculture. It's a comprehensive mission aimed at enhancing agricultural productivity and promoting sustainable agriculture practices. The mission focuses on soil health management, water use efficiency, and promoting organic farming practices."]
+},
+{
+  "tag": "nfsm",
+  "patterns": ["What is NFSM?", "Can you explain NFSM?", "Details about NFSM", "How does NFSM work?", "What is the full form of NFSM?", "Purpose of NFSM?"],
+  "responses": ["NFSM stands for National Food Security Mission. It's a government initiative aimed at increasing the production of rice, wheat, and pulses to ensure food security and to make these commodities available at affordable prices to consumers. The mission also aims to enhance the nutritional security of the country."]
+},
+{
+  "tag": "rkv",
+  "patterns": ["What is RKVY?", "Can you explain RKVY?", "Details about RKVY", "How does RKVY work?", "What is the full form of RKVY?", "Purpose of RKVY?"],
+  "responses": ["RKVY stands for Rashtriya Krishi Vikas Yojana. It's a scheme initiated by the Government of India to provide financial assistance to states for planning and executing various agriculture-related projects. The primary objective of RKVY is to achieve 4% annual growth in agriculture and allied sectors."]
+},
+{
+  "tag": "pkvy",
+  "patterns": ["What is PKVY?", "Can you explain PKVY?", "Details about PKVY", "How does PKVY work?", "What is the full form of PKVY?", "Purpose of PKVY?"],
+  "responses": ["PKVY stands for Paramparagat Krishi Vikas Yojana. It's a scheme launched by the Government of India to promote organic farming among farmers. Under this scheme, financial assistance is provided to farmers for adopting organic farming practices and for the development of organic clusters."]
+},
+{
+      "tag": "crop cultivation",
+      "patterns": [
+        "What are the main crops grown in your region?",
+        "How is the crop cultivation in your area?",
+        "Can you tell me about different methods of crop cultivation?",
+        "What are the challenges faced in crop cultivation?"
+      ],
+      "responses": [
+        "The main crops grown in our region include wheat, rice, and maize.",
+        "Crop cultivation in our area involves both traditional and modern methods.",
+        "Different methods of crop cultivation include organic farming, hydroponics, and greenhouse farming.",
+        "Challenges faced in crop cultivation include pests, diseases, and unpredictable weather conditions."
+      ]
+    },
+    {
+      "tag": "irrigation techniques",
+      "patterns": [
+        "What are the common irrigation techniques used in agriculture?",
+        "Can you explain drip irrigation?",
+        "How does sprinkler irrigation work?",
+        "What are the advantages of using modern irrigation techniques?"
+      ],
+      "responses": [
+        "Common irrigation techniques include drip irrigation, sprinkler irrigation, and flood irrigation.",
+        "Drip irrigation is a method where water is dripped onto the soil at the base of the plant.",
+        "Sprinkler irrigation works by spraying water over the crops in a controlled manner.",
+        "Modern irrigation techniques help in water conservation and efficient water usage."
+      ]
+    },
+    {
+      "tag": "fertilizers and pesticides",
+      "patterns": [
+        "What are the types of fertilizers used in agriculture?",
+        "How do fertilizers contribute to crop growth?",
+        "Can you explain integrated pest management?",
+        "What are the effects of pesticides on the environment?"
+      ],
+      "responses": [
+        "Types of fertilizers include organic fertilizers, inorganic fertilizers, and biofertilizers.",
+        "Fertilizers provide essential nutrients to plants, promoting growth and yield.",
+        "Integrated pest management involves using a combination of biological, cultural, and chemical methods to control pests.",
+        "Pesticides can have harmful effects on the environment, including soil and water contamination, and harm to non-target organisms."
+      ]
+    },
+    {
+      "tag": "government schemes",
+      "patterns": [
+        "What government schemes are available for farmers?",
+        "Can you list some agricultural subsidy schemes?",
+        "How can farmers benefit from government initiatives?"
+      ],
+      "responses": [
+        "Some government schemes for farmers include PM-KISAN, PMFBY, and Kisan Credit Card scheme.",
+        "Agricultural subsidy schemes provide financial support and incentives to farmers for various inputs and practices.",
+        "Farmers can benefit from government initiatives by availing subsidies, insurance coverage, and access to credit facilities."
+      ]
+    },
+    {
+      "tag": "organic farming",
+      "patterns": [
+        "What is organic farming?",
+        "How is organic farming different from conventional farming?",
+        "What are the benefits of organic farming?",
+        "Are there any challenges in practicing organic farming?"
+      ],
+      "responses": [
+        "Organic farming is a method of agriculture that relies on natural inputs and practices to grow crops.",
+        "Organic farming avoids the use of synthetic fertilizers and pesticides, unlike conventional farming.",
+        "Benefits of organic farming include improved soil health, reduced environmental impact, and production of healthier food.",
+        "Challenges in practicing organic farming include higher labor costs, lower yields initially, and certification requirements."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good afternoon",
+        "Good evening",
+        "hii",
+        "hiii",
+        "helo"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Hey! How can I assist you?",
+        "Good day! What can I do for you?",
+        "Good afternoon! How may I assist you?",
+        "Good evening! How can I help you?",
+        "Hello! Thanks for visiting. How can I assist you?"
+      ]
+    },
+    {
+      "tag": "crop_selection",
+      "patterns": [
+        "How do I choose the right crop?",
+        "Which crops are suitable for my region?",
+        "What factors should I consider when selecting crops?",
+        "How can I determine the best crop for my farm?"
+      ],
+      "responses": [
+        "Choosing the right crop depends on factors like soil type, climate, market demand, and your farming goals.",
+        "Consider factors such as soil fertility, water availability, climate conditions, market demand, and your resources before selecting a crop.",
+        "You can determine the best crop for your farm by analyzing soil characteristics, climate patterns, market trends, and your own expertise and resources."
+      ]
+    },
+    {
+      "tag": "soil_management",
+      "patterns": [
+        "How can I improve soil fertility?",
+        "What are some soil management techniques?",
+        "How do I prevent soil erosion?",
+        "What is soil conservation?",
+        "How can I maintain soil health?"
+      ],
+      "responses": [
+        "Improving soil fertility can be done through practices like crop rotation, adding organic matter, and using cover crops.",
+        "Soil management techniques include conservation tillage, mulching, contour farming, and terracing.",
+        "To prevent soil erosion, consider planting windbreaks, using contour plowing, and practicing conservation tillage.",
+        "Soil conservation involves practices like terracing, contour farming, windbreaks, and planting cover crops to prevent soil degradation.",
+        "Maintaining soil health requires practices such as crop rotation, proper irrigation, avoiding overuse of chemical fertilizers, and minimizing soil compaction."
+      ]
+    },
+    {
+      "tag": "irrigation_methods",
+      "patterns": [
+        "What are the different irrigation methods?",
+        "Which irrigation method is best for my farm?",
+        "How can I conserve water during irrigation?"
+      ],
+      "responses": [
+        "Common irrigation methods include drip irrigation, sprinkler irrigation, flood irrigation, and pivot irrigation.",
+        "The best irrigation method depends on factors like crop type, soil type, water availability, and farm size.",
+        "To conserve water during irrigation, consider using drip irrigation, mulching, scheduling irrigation during off-peak hours, and optimizing water application rates."
+      ]
+    },
+    {
+      "tag": "pest_management",
+      "patterns": [
+        "How do I control pests and diseases on my crops?",
+        "What are some organic pest management techniques?",
+        "How can I minimize pesticide use?",
+        "What is integrated pest management (IPM)?"
+      ],
+      "responses": [
+        "Pest and disease control methods include crop rotation, using resistant varieties, biological control agents, and judicious use of pesticides.",
+        "Organic pest management techniques involve using beneficial insects, crop rotation, companion planting, and neem-based pesticides.",
+        "To minimize pesticide use, employ techniques like crop rotation, using biopesticides, practicing crop scouting, and implementing cultural controls.",
+        "Integrated pest management (IPM) is a holistic approach that combines biological, cultural, physical, and chemical methods to manage pests while minimizing environmental impact."
+      ]
+    },
+    {
+    "tag": "greeting",
+    "patterns": [
+      "Hi",
+      "Hey",
+      "How are you",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "Good afternoon",
+      "Good evening",
+      "hii",
+      "hiii",
+      "helo"
+    ],
+    "responses": [
+      "Hi there!",
+      "Hello!",
+      "Greetings!",
+      "Hey, how can I help you?",
+      "Hi! How can I assist you today?",
+      "Good day! How may I assist you?",
+      "Hello! What can I do for you?",
+      "Good evening! How may I assist you?",
+      "Hey! Thanks for visiting."
+    ]
+  },
+  {
+    "tag": "crop_information",
+    "patterns": [
+      "What crops can I grow in my region?",
+      "Which crops are suitable for my soil type?",
+      "What are the best crops for this climate?",
+      "How can I improve my crop yield?",
+      "What are the ideal planting seasons for specific crops?",
+      "What crops are in high demand in the market?",
+      "How do I protect my crops from pests and diseases?",
+      "What are the benefits of crop rotation?",
+      "What are some drought-resistant crops?",
+      "How do I optimize fertilizer usage for maximum yield?"
+    ],
+    "responses": [
+      "You can grow wheat, barley, and lentils in your region.",
+      "Crops suitable for your soil type include maize, soybeans, and sunflowers.",
+      "For this climate, consider planting tomatoes, peppers, and cucumbers.",
+      "To improve crop yield, focus on soil health, irrigation, and pest management.",
+      "The ideal planting seasons vary by crop; I can provide specific details if you'd like.",
+      "Crops in high demand include tomatoes, onions, and potatoes.",
+      "Protect your crops by practicing crop rotation, using pesticides judiciously, and monitoring for signs of diseases.",
+      "Crop rotation helps maintain soil fertility and reduces pest and disease pressure.",
+      "Consider planting millet, sorghum, or quinoa as drought-resistant options.",
+      "To optimize fertilizer usage, conduct soil tests and apply nutrients based on crop requirements."
+    ]
+  },
+  {
+    "tag": "weather_information",
+    "patterns": [
+      "What's the weather forecast for tomorrow?",
+      "Is there a chance of rain next week?",
+      "How will the temperature fluctuate in the coming days?",
+      "What are the wind speeds for today?",
+      "Will there be any frost tonight?",
+      "Is there a weather advisory for my area?",
+      "What's the UV index for today?",
+      "Can you provide historical weather data for my location?"
+    ],
+    "responses": [
+      "The weather forecast for tomorrow predicts partly cloudy skies with a chance of rain in the afternoon.",
+      "Next week, there's a possibility of scattered showers on Tuesday and Wednesday.",
+      "Temperatures will range from 18 to 25 degrees Celsius over the next few days.",
+      "Wind speeds today are expected to reach 10 to 15 kilometers per hour.",
+      "Frost is not expected tonight; however, temperatures may dip below freezing.",
+      "Please check your local weather service for any weather advisories in your area.",
+      "The UV index for today is moderate, so remember to apply sunscreen if you plan to be outdoors.",
+      "I can provide historical weather data; please specify the date range and location."
+    ]
+  },
+  {
+    "tag": "soil_information",
+    "patterns": [
+      "How can I improve my soil fertility?",
+      "What's the pH level of my soil?",
+      "What nutrients are lacking in my soil?",
+      "How do I prevent soil erosion?",
+      "What cover crops are suitable for my soil type?",
+      "Can you recommend organic soil amendments?",
+      "How often should I test my soil?",
+      "What's the ideal soil temperature for planting seeds?",
+      "How can I reduce soil compaction?",
+      "What are some methods for soil conservation?"
+    ],
+    "responses": [
+      "You can improve soil fertility by adding organic matter, such as compost or manure.",
+      "I recommend conducting a soil test to determine the pH level of your soil.",
+      "A soil test will also reveal any nutrient deficiencies; consider fertilizing accordingly.",
+      "To prevent soil erosion, practice contour plowing, terracing, and planting cover crops.",
+      "Cover crops like clover, rye, and vetch are suitable for improving soil health.",
+      "Organic soil amendments such as bone meal, kelp meal, and fish emulsion can enhance soil fertility.",
+      "Regular soil testing is recommended, typically every 2 to 3 years.",
+      "Seeds generally germinate best when soil temperatures are between 60 and 80 degrees Fahrenheit.",
+      "To reduce soil compaction, avoid working on wet soil and practice crop rotation.",
+      "Soil conservation methods include no-till farming, crop rotation, and contour farming."
+    ]
+  },
+  {
+    "tag": "pest_and_disease_management",
+    "patterns": [
+      "How do I identify common pests in my crops?",
+      "What are the symptoms of common plant diseases?",
+      "Can you recommend organic pest control methods?",
+      "How can I prevent the spread of plant diseases?",
+      "What's the best way to control weeds in my fields?",
+      "Are there any natural predators for common pests?",
+      "What are some signs of nutrient deficiencies in plants?",
+      "How do I treat powdery mildew on my crops?",
+      "What are some cultural practices for pest management?",
+      "Are there any resistant crop varieties available?"
+    ],
+    "responses": [
+      "Common pests include aphids, caterpillars, and whiteflies; look for visible damage and signs of infestation.",
+      "Plant diseases often manifest as wilting, discoloration, spots, or abnormal growth patterns.",
+      "Organic pest control methods include companion planting, neem oil spray, and introducing beneficial insects.",
+      "Prevent the spread of plant diseases by practicing crop rotation, sanitizing tools, and removing infected plants.",
+      "Weed control methods include mulching, hand weeding, and using herbicides judiciously.",
+      "Natural predators such"]
+    },
+    {
+      "tag": "agriculture",
+      "patterns": [
+        "What is agriculture?",
+        "Define agriculture",
+        "Can you explain agriculture?",
+        "What does agriculture mean?",
+        "How would you describe agriculture?",
+        "What encompasses agriculture?",
+        "Give me an overview of agriculture",
+        "Explain the concept of agriculture",
+        "What is the definition of agriculture?",
+        "What falls under the category of agriculture?"
+      ],
+      "responses": [
+        "Agriculture is the practice of cultivating crops, raising livestock, and farming for food, fiber, and other resources.",
+        "Agriculture involves the science, art, and business of cultivating soil, producing crops, and raising livestock.",
+        "Agriculture encompasses activities related to cultivating land, growing crops, and breeding animals for human use and consumption.",
+        "At its core, agriculture is the process of producing food, feed, fiber, fuel, and other agricultural products through farming and related activities.",
+        "Agriculture is the backbone of civilization, involving the cultivation of plants and the rearing of animals for sustenance and economic gain."
+      ]
+    },
+    {
+      "tag": "weather_info",
+      "patterns": [
+        "What's the weather like today?",
+        "Can you tell me the weather forecast?",
+        "Is it going to rain tomorrow?",
+        "How hot is it outside?",
+        "What's the temperature right now?",
+        "Will it be sunny this weekend?",
+        "Do I need an umbrella today?",
+        "What's the humidity level?",
+        "Is there a chance of thunderstorms?",
+        "What's the UV index?",
+        "How windy is it?"
+      ],
+      "responses": [
+        "Sure, you can check the weather forecast for today at [weather.com](https://weather.com/).",
+        "For detailed weather information, visit [AccuWeather](https://www.accuweather.com/).",
+        "You can find the rain forecast for tomorrow on [The Weather Channel](https://weather.com/).",
+        "Check the current temperature at [Weather Underground](https://www.wunderground.com/).",
+        "The current temperature can be found at [Weather.gov](https://www.weather.gov/).",
+        "To know the weekend forecast, visit [BBC Weather](https://www.bbc.com/weather).",
+        "For real-time weather updates, try [WeatherBug](https://www.weatherbug.com/).",
+        "The humidity level can be checked at [Weather.com](https://weather.com/).",
+        "To stay informed about thunderstorms, visit [Weather Underground](https://www.wunderground.com/).",
+        "For UV index information, visit [The Weather Network](https://www.theweathernetwork.com/).",
+        "Wind speed can be checked at [AccuWeather](https://www.accuweather.com/)."
+      ]
+    },
+    {
+        "tag": "temperature",
+        "patterns": ["What is the current temperature?", "How hot is it right now?", "Temperature today?", "What's the temperature outside?", "How cold is it?"],
+        "responses": ["The current temperature is 25°C.", "It's currently 25 degrees Celsius.", "Today's temperature is 25°C.", "The temperature outside is 25°C.", "It's a chilly 25 degrees Celsius."],
+        "website": "https://www.weather.com/"
+      },
+      {
+        "tag": "forecast",
+        "patterns": ["Whats the weather forecast for tomorrow?", "Will it rain tomorrow?", "Any chance of snow tomorrow?", "Forecast for the week?", "What's the weather like tomorrow?"],
+        "responses": ["Tomorrow's forecast predicts sunshine with a high of 28°C.", "There's no rain in tomorrow's forecast.", "The forecast indicates a chance of snow tomorrow.", "Here's the weekly forecast: sunny skies and temperatures ranging from 25°C to 30°C.", "Tomorrow's weather is expected to be sunny with a high of 28 degrees Celsius."],
+        "website": "https://www.accuweather.com/"
+      },
+      {
+        "tag": "precipitation",
+        "patterns": ["Is it raining?", "How much rain have we had today?", "Any chance of showers?", "When will the rain stop?", "Will it rain later?"],
+        "responses": ["Yes, it's currently raining.", "We've had 5mm of rain today.", "There's a chance of showers later in the day.", "The rain is expected to stop in the afternoon.", "Rain is forecasted for later today."],
+        "website": "https://weather.com/en-IN/weather/today/l/INXX0199:1:IN"
+      },
+      {
+        "tag": "humidity",
+        "patterns": ["How humid is it?", "Is it muggy today?", "What's the humidity level?", "Any humidity warnings?", "Feels humid, doesn't it?"],
+        "responses": ["The humidity level is at 80%.", "Yes, it's quite muggy today.", "The current humidity level is 80%.", "No humidity warnings at the moment.", "Yes, it feels quite humid."],
+        "website": "https://www.wunderground.com/"
+      },
+      {
+          "tag": "seed_information",
+          "patterns": [
+            "What are the different types of seeds?",
+            "Can you tell me about seed varieties?",
+            "I want to learn about different kinds of seeds",
+            "Types of seeds",
+            "Seed varieties"
+          ],
+          "responses": [
+            "There are many types of seeds, including vegetable seeds, flower seeds, fruit seeds, and tree seeds.",
+            "Different seed varieties include heirloom, hybrid, open-pollinated, and genetically modified seeds.",
+            "You can explore various types of seeds at this website: https://example.com/seeds"
+          ]
+      },
+      {
+        "tag": "vegetable_seeds",
+          "patterns": [
+            "What are vegetable seeds?",
+            "Tell me about seeds for growing vegetables",
+            "Vegetable seed varieties",
+            "Types of vegetable seeds"
+          ],
+          "responses": [
+            "Vegetable seeds are seeds specifically cultivated for growing vegetables, such as tomatoes, peppers, carrots, and lettuce.",
+            "Popular vegetable seed varieties include heirloom tomatoes, bell peppers, zucchini, and spinach.",
+            "Explore a wide range of vegetable seeds here: https://example.com/vegetable-seeds"
+          ]
+        },
+        {
+          "tag": "flower_seeds",
+          "patterns": [
+            "What are flower seeds?",
+            "Tell me about seeds for growing flowers",
+            "Flower seed varieties",
+            "Types of flower seeds"
+          ],
+          "responses": [
+            "Flower seeds are seeds used for growing various types of flowers, including roses, sunflowers, marigolds, and petunias.",
+            "Common flower seed varieties include wildflowers, annuals, perennials, and bulbs.",
+            "Discover beautiful flower seeds at this website: https://example.com/flower-seeds"
+          ]
+        },
+        {
+          "tag": "fruit_seeds",
+          "patterns": [
+            "What are fruit seeds?",
+            "Tell me about seeds for growing fruits",
+            "Fruit seed varieties",
+            "Types of fruit seeds"
+          ],
+          "responses": [
+            "Fruit seeds are seeds found within fruits that can be planted to grow new fruit-bearing plants, such as apples, oranges, grapes, and strawberries.",
+            "Popular fruit seed varieties include apple seeds, watermelon seeds, peach pits, and grape seeds.",
+            "Explore a variety of fruit seeds here: https://example.com/fruit-seeds"
+          ]
+        },
+        {
+          "tag": "tree_seeds",
+          "patterns": [
+            "What are tree seeds?",
+            "Tell me about seeds for growing trees",
+            "Tree seed varieties",
+            "Types of tree seeds"
+          ],
+          "responses": [
+            "Tree seeds are seeds from trees that can be planted to grow new trees, such as oak trees, pine trees, maple trees, and palm trees.",
+            "Common tree seed varieties include acorns, pine cones, maple samaras, and palm seeds.",
+            "Find tree seeds for your garden at this website: https://example.com/tree-seeds"
+          ]
+        },
+       {
+         "tag": "pesticide_definition",
+              "patterns": [
+                "What is a pesticide?",
+                "Define pesticide",
+                "Explain pesticide",
+                "What do you mean by pesticide?",
+                "Can you define pesticide?"
+              ],
+              "responses": [
+                "A pesticide is a substance used to kill, repel, or control pests such as insects, weeds, fungi, and rodents in agriculture."
+              ]
+            },
+            {
+              "tag": "types_of_pesticides",
+              "patterns": [
+                "What are the types of pesticides?",
+                "List the types of pesticides",
+                "Name different kinds of pesticides",
+                "What categories do pesticides fall into?",
+                "Can you categorize pesticides?"
+              ],
+              "responses": [
+                "There are several types of pesticides, including insecticides, herbicides, fungicides, rodenticides, and bactericides."
+              ]
+            },
+            {
+              "tag": "benefits_of_pesticides",
+              "patterns": [
+                "What are the benefits of using pesticides?",
+                "Why are pesticides important?",
+                "What advantages do pesticides offer?",
+                "What are the positive impacts of pesticides?",
+                "Can you list the benefits of pesticides?"
+              ],
+              "responses": [
+                "Pesticides help control pests that can damage crops, improve crop yields, reduce crop loss, and ensure food security by protecting agricultural produce from damage."
+              ]
+            },
+            {
+              "tag": "risks_of_pesticides",
+              "patterns": [
+                "What are the risks associated with pesticides?",
+                "What are the dangers of using pesticides?",
+                "Are there any negative effects of pesticides?",
+                "What are the potential hazards of pesticides?",
+                "Can you explain the risks of pesticides?"
+              ],
+              "responses": [
+                "Pesticides can have harmful effects on human health, the environment, and non-target organisms. They may contaminate soil, water, and air, harm beneficial insects, pollinators, and wildlife, and pose health risks to humans through exposure."
+              ]
+            },
+            {
+              "tag": "pesticide_application",
+              "patterns": [
+                "How do you apply pesticides?",
+                "What is the process of pesticide application?",
+                "Can you explain how to use pesticides?",
+                "What are the methods of applying pesticides?",
+                "How should pesticides be applied?"
+              ],
+              "responses": [
+                "Pesticides can be applied using various methods such as spraying, dusting, fogging, fumigation, seed treatment, soil drenching, and baiting, depending on the type of pesticide and target pest."
+              ]
+            },
+            {
+              "tag": "soil_management",
+              "patterns": ["What is soil management?", "How can soil be managed sustainably?", "Why is soil management important in sustainable agriculture?", "What are some soil management practices?", "How does soil management contribute to sustainable farming?"],
+              "responses": ["Soil management involves practices to maintain soil health and fertility, such as crop rotation, cover cropping, and organic amendments.", "Sustainable soil management aims to preserve soil structure, fertility, and biodiversity for long-term agricultural productivity and environmental health.", "Soil management is crucial in sustainable agriculture as it helps maintain soil fertility, prevent erosion, and minimize nutrient runoff, contributing to resilient and productive farming systems.", "Some soil management practices include conservation tillage, mulching, composting, and agroforestry, which enhance soil structure, fertility, and water retention while reducing erosion and nutrient loss.", "Effective soil management practices support soil health, enhance crop productivity, conserve water resources, and reduce environmental degradation, promoting sustainable agriculture."]
+            },
+            {
+              "tag": "water_management",
+              "patterns": ["What is water management in agriculture?", "How can water be managed sustainably in farming?", "Why is water management important for sustainable agriculture?", "What are some water management practices?", "How does sustainable water management benefit farmers?"],
+              "responses": ["Water management in agriculture involves strategies to conserve, allocate, and utilize water resources efficiently to meet agricultural needs while minimizing negative environmental impacts.", "Sustainable water management in farming includes practices such as drip irrigation, rainwater harvesting, and water recycling, aiming to reduce water waste and promote water conservation.", "Water management is critical for sustainable agriculture as it ensures efficient water use, reduces water scarcity risks, and protects aquatic ecosystems from pollution and depletion.", "Some water management practices in agriculture include precision irrigation, soil moisture monitoring, contour farming, and water-efficient crop selection, which optimize water use efficiency and minimize water loss.", "Sustainable water management enhances farm resilience to climate change, improves crop yields, conserves water resources, and mitigates environmental impacts, fostering long-term agricultural sustainability."]
+            },
+            {
+              "tag": "crop_rotation",
+              "patterns": ["What is crop rotation?", "How does crop rotation contribute to sustainable agriculture?", "Why is crop rotation important in farming?", "What are the benefits of crop rotation?", "What are some examples of crop rotation systems?"],
+              "responses": ["Crop rotation is the practice of growing different crops in sequential seasons or years on the same land to improve soil health, manage pests and diseases, and enhance crop yields and resilience.", "Crop rotation is a key component of sustainable agriculture as it helps break pest and disease cycles, replenish soil nutrients, reduce soil erosion, and improve soil structure and fertility over time.", "Crop rotation is important in farming to maintain soil health, prevent soil degradation, and sustain long-term agricultural productivity.", "The benefits of crop rotation include improved soil structure, enhanced nutrient cycling, reduced pest and disease pressure, increased crop yields, and diversified farm income.", "Examples of crop rotation systems include traditional rotations like corn-soybean-wheat, as well as diverse multi-year rotations incorporating cover crops, legumes, and cash crops, tailored to local soil and climate conditions."]
+            },
+            {
+              "tag": "organic_farming",
+              "patterns": ["What is organic farming?", "How does organic farming promote sustainability?", "Why is organic farming important for the environment?", "What are the principles of organic farming?", "What are some practices in organic agriculture?"],
+              "responses": ["Organic farming is an agricultural approach that emphasizes soil health, biodiversity, and ecological balance, avoiding synthetic pesticides, fertilizers, and genetically modified organisms (GMOs) to produce food in harmony with nature.", "Organic farming promotes sustainability by conserving soil and water resources, enhancing biodiversity, reducing pollution and greenhouse gas emissions and fostering resilient farming systems.", "Organic farming is important for the environment as it reduces chemical inputs, minimizes soil and water pollution, protects biodiversity, and mitigates climate change impacts, contributing to ecosystem health and resilience.", "The principles of organic farming include soil health and fertility, biodiversity, ecological balance, and non-toxic pest and disease management, guided by practices such as crop rotation, cover cropping, composting, and integrated pest management (IPM).", "Practices in organic agriculture encompass soil-building techniques, such as composting, mulching, and green manure, crop diversification, biological pest control, and reliance on natural inputs and processes to sustainably manage farm ecosystems."]
+            },
+            {
+              "tag": "agroforestry",
+              "patterns": ["What is agroforestry?", "How does agroforestry contribute to sustainable agriculture?", "Why is agroforestry important for ecosystem conservation?", "What are the benefits of agroforestry?", "What are some types of agroforestry systems?"],
+              "responses": ["Agroforestry is a land use system that integrates trees, crops, and livestock on the same land, creating synergies between agricultural production and forestry, enhancing ecosystem services, and promoting sustainable land management.", "Agroforestry contributes to sustainable agriculture by improving soil fertility, conserving water resources, enhancing biodiversity, sequestering carbon, and providing multiple products and income streams from the same land area.", "Agroforestry is important for ecosystem conservation as it helps restore degraded lands, mitigate climate change impacts, prevent soil erosion, and support wildlife habitat and biodiversity conservation.", "The benefits of agroforestry include increased crop yields, improved soil health, enhanced resilience to climate change, diversified farm income, reduced land degradation, and enhanced ecosystem services such as carbon sequestration and water purification.", "Types of agroforestry systems include alley cropping, silvopasture, windbreaks, forest farming, and homegardens, each offering unique benefits and opportunities for sustainable land use and livelihood improvement."]
+            },
+            {
+              "tag": "father_of_agriculture_in_india",
+              "patterns": [
+                "Who is considered the father of agriculture in india?",
+                "Who is known as the father of agriculture in india?",
+                "Who is credited as the father of agriculture in india?"
+              ],
+              "responses": [
+                "The father of agriculture is often attributed to MS Swaminathan, according to some religious and historical beliefs."
+              ]
+            },
+            {
+              "tag": "agriculture_contact",
+              "patterns": [
+                "What is the agriculture contact number?",
+                "Can you provide the agriculture contact number?",
+                "I need the agriculture contact number.",
+                "How can I contact agriculture support?",
+                "Where can I find the agriculture contact number?"
+              ],
+              "responses": [
+                "The agriculture contact number is 1800-180-1551.",
+                "You can reach agriculture support at 1800-180-1551.",
+                "For agriculture inquiries, please call 1800-180-1551.",
+                "The agriculture contact number is available at 1800-180-1551.",
+                "You can contact agriculture services by dialing 1800-180-1551."
+              ]
+            },
+            {
+              "tag": "god_of_agriculture",
+              "patterns": [
+                "Who is the god of agriculture?",
+                "Which deity is associated with farming?",
+                "Tell me about the agricultural god in India",
+                "Who represents agriculture in Hindu mythology?"
+              ],
+              "responses": [
+                "In Hindu mythology, the god of agriculture is known as Balarama."
+              ]
+            },
+            
+              {
+                "tag": "Andhra Pradesh",
+                "patterns": ["What is the largest agricultural state in India?", "Which Indian state has the highest agricultural output?"],
+                "responses": ["Andhra Pradesh is the largest agricultural state in India."]
+              },
+              {
+                "tag": "Uttar Pradesh",
+                "patterns": ["Which state in India has the most farmland?", "Which Indian state is known as the 'Food Basket of India'?"],
+                "responses": ["Uttar Pradesh has the most farmland and is known as the 'Food Basket of India'."]
+              },
+              {
+                "tag": "Madhya Pradesh",
+                "patterns": ["Which Indian state has the largest area under cultivation?"],
+                "responses": ["Madhya Pradesh has the largest area under cultivation in India."]
+              },
+              {
+                "tag": "Maharashtra",
+                "patterns": ["Which state is the largest producer of fruits in India?"],
+                "responses": ["Maharashtra is the largest producer of fruits in India."]
+              },
+              {
+                "tag": "Rajasthan",
+                "patterns": ["Which Indian state has the largest area of rainfed farming?"],
+                "responses": ["Rajasthan has the largest area of rainfed farming in India."]
+              },
+              {
+                "tag": "Punjab",
+                "patterns": ["Which state is known as the 'Granary of India'?"],
+                "responses": ["Punjab is known as the 'Granary of India'."]
+              },
+              {
+                "tag": "West Bengal",
+                "patterns": ["Which Indian state is the largest producer of rice?"],
+                "responses": ["West Bengal is the largest producer of rice in India."]
+              },
+              {
+                "tag": "Bihar",
+                "patterns": ["Which state in India has the highest agricultural growth rate?"],
+                "responses": ["Bihar has the highest agricultural growth rate in India."]
+              },
+              {
+                "tag": "Karnataka",
+                "patterns": ["Which Indian state is the largest producer of coffee?"],
+                "responses": ["Karnataka is the largest producer of coffee in India."]
+              },
+              {
+                "tag": "Tamil Nadu",
+                "patterns": ["Which state has the highest horticultural production in India?"],
+                "responses": ["Tamil Nadu has the highest horticultural production in India."]
+              },
+             {
+                "tag": "crop",
+                "patterns": [
+                  "What is a crop?",
+                  "Define crop",
+                  "What are crops?",
+                  "Explain crops",
+                  "Types of crops"
+                ],
+                "responses": [
+                  "A crop is a plant or animal product that can be grown and harvested extensively for profit or subsistence.",
+                  "Crops refer to cultivated plants or agricultural produce, typically grown for food or for commercial value.",
+                  "Crops are plants or animals that are grown and harvested for economic gain or sustenance.",
+                  "Crops encompass a wide range of plants or animals cultivated for human or animal consumption, fiber, or other purposes.",
+                  "Crops can be categorized into various types based on their usage, cultivation methods, and economic value."
+                ]
+              },
+              
+              {
+                "tag": "soil",
+                "patterns": [
+                  "What is soil?",
+                  "Define soil",
+                  "Explain soil",
+                  "Types of soil",
+                  "Composition of soil"
+                ],
+                "responses": [
+                  "Soil is the top layer of the Earth's surface, consisting of mineral particles, organic matter, water, air, and living organisms.",
+                  "Soil refers to the mixture of minerals, organic matter, water, and air that forms the upper layer of the Earth's crust and provides a medium for plant growth.",
+                  "Soil is a complex mixture of minerals, organic matter, microorganisms, and other substances that support plant growth and sustain terrestrial ecosystems.",
+                  "Soil can be classified into various types based on factors such as texture, structure, and composition, including sandy soil, clay soil, and loamy soil.",
+                  "The composition of soil varies depending on factors such as climate, parent material, topography, and time, with key components including minerals, organic matter, water, and air."
+                ]
+              },
+              {
+                "tag": "1",
+                "patterns": ["What are slow-growing crops?", "Can you define slow-growing crops?", "Which crops grow slowly?"],
+                "responses": ["Slow-growing crops are those plants that take an extended period to reach maturity and produce harvestable yields."]
+              },
+              {
+                "tag": "2",
+                "patterns": ["Why do some crops grow slowly?"],
+                "responses": ["Several factors can contribute to slow growth in crops, including environmental conditions like temperature and soil quality, genetic factors, and the plant's natural growth rate."]
+              },
+              {
+                "tag": "3",
+                "patterns": ["What are some examples of slow-growing crops?"],
+                "responses": ["Examples of slow-growing crops include certain varieties of fruit trees (such as avocado and olive trees), perennial herbs (like rosemary and lavender), and some root vegetables (such as carrots and parsnips)."]
+              },
+              {
+                "tag": "4",
+                "patterns": ["How long does it typically take for slow-growing crops to mature?"],
+                "responses": ["The time it takes for slow-growing crops to mature can vary widely depending on the specific crop and growing conditions. It can range from several months to several years."]
+              },
+              {
+                "tag": "5",
+                "patterns": ["What are the advantages of growing slow-growing crops?"],
+                "responses": ["Slow-growing crops often have deep root systems that can improve soil structure and fertility over time. They may also require less maintenance once established and can provide a steady, long-term yield."]
+              },
+              {
+                "tag": "6",
+                "patterns": ["What are the challenges of cultivating slow-growing crops?"],
+                "responses": ["One challenge is the extended time required for these crops to reach maturity, which can increase the risk of crop failure due to factors like pests, diseases, and adverse weather conditions. Additionally, the initial investment of time and resources may be higher compared to faster-growing crops."]
+              },
+              {
+                "tag": "7",
+                "patterns": ["How can farmers optimize the growth of slow-growing crops?"],
+                "responses": ["Farmers can optimize the growth of slow-growing crops by selecting suitable varieties for their climate and soil conditions, providing proper irrigation and nutrition, and implementing sustainable farming practices to promote soil health and biodiversity."]
+              },
+              {
+                "tag": "8",
+                "patterns": ["Are slow-growing crops more resilient to climate change?"],
+                "responses": ["Slow-growing crops with deep root systems may have some resilience to drought conditions associated with climate change. However, their long growth cycles may also make them more vulnerable to extreme weather events and shifting climate patterns."]
+              },
+              {
+                "tag": "9",
+                "patterns": ["What are some strategies for marketing slow-growing crops?"],
+                "responses": ["Marketing slow-growing crops often involves emphasizing their quality, unique flavors or aromas, and the sustainable practices used in their cultivation. Targeting niche markets such as organic or gourmet food enthusiasts can also be effective."]
+              },
+              {
+                "tag": "10",
+                "patterns": ["Can slow-growing crops be grown in containers or small spaces?"],
+                "responses": ["Yes, many slow-growing crops, especially dwarf or compact varieties, can be successfully grown in containers or small spaces like balconies or patios. Proper container selection, soil preparation, and maintenance are key to success."]
+              },
+              {
+                "tag": "11",
+                "patterns": ["How do slow-growing crops contribute to biodiversity?"],
+                "responses": ["Slow-growing crops often support a diverse ecosystem by providing habitat and food sources for beneficial insects, birds, and other wildlife. Their cultivation can also help preserve heirloom varieties and traditional farming practices."]
+              },
+              {
+                "tag": "12",
+                "patterns": ["Are slow-growing crops economically viable for farmers?"],
+                "responses": ["While the upfront investment and longer time to harvest may pose challenges, slow-growing crops can be economically viable for farmers, especially when marketed to niche markets willing to pay premium prices for quality and sustainability."]
+              },
+              {
+                "tag": "13",
+                "patterns": ["What role do slow-growing crops play in sustainable agriculture?"],
+                "responses": ["Slow-growing crops contribute to sustainable agriculture by promoting soil health, biodiversity, and long-term ecosystem resilience. They often require fewer inputs like fertilizers and pesticides, reducing environmental impacts."]
+              },
+              {
+                "tag": "14",
+                "patterns": ["How can farmers ensure a steady income when cultivating slow-growing crops?"],
+                "responses": ["Farmers can ensure a steady income from slow-growing crops by diversifying their crops and income streams, stagger planting times to maintain a continuous harvest, and forming partnerships with local markets or restaurants."]
+              },
+              {
+                "tag": "15",
+                "patterns": ["Are there any specific challenges in storing and preserving slow-growing crops?"],
+                "responses": ["Slow-growing crops like certain root vegetables and fruits may have specific requirements for storage and preservation to maintain quality and freshness. Proper temperature and humidity control, as well as suitable packaging, are essential."]
+              },
+              {
+                "tag": "16",
+                "patterns": ["How can slow-growing crops contribute to food security?"],
+                "responses": ["Slow-growing crops can contribute to food security by diversifying food sources, providing nutritious and culturally significant foods, and enhancing resilience to environmental and economic shocks."]
+              },
+              {
+                "tag": "17",
+                "patterns": ["Can slow-growing crops be integrated into agroforestry systems?"],
+                "responses": ["Yes, slow-growing crops like fruit trees and perennial herbs are often key components of agroforestry systems, where they can provide multiple benefits such as soil conservation, biodiversity enhancement, and additional income."]
+              },
+              {
+                "tag": "18",
+                "patterns": ["How do slow-growing crops impact soil health?"],
+                "responses": ["Slow-growing crops with deep root systems can help improve soil structure, increase organic matter content, and enhance nutrient cycling, leading to healthier and more resilient soils over time."]
+              },
+              {
+                "tag": "19",
+                "patterns": ["Are there any slow-growing crops suitable for hydroponic or aquaponic systems?"],
+                "responses": ["While some slow-growing crops may not be well-suited for hydroponic or aquaponic systems due to their specific growth requirements, there are varieties of herbs, leafy greens, and certain fruiting crops that can thrive in these soilless cultivation methods."]
+              },
+              {
+                "tag": "20",
+                "patterns": ["What research is being done to improve the productivity of slow-growing crops?"],
+                "responses": ["Research efforts are underway to develop new varieties of slow-growing crops with improved yield, disease resistance, and environmental resilience. Scientists are also exploring innovative cultivation techniques and biotechnological approaches to enhance productivity."]
+              },
+                {
+                  "tag": "crop_rotation",
+                  "patterns": ["What is crop rotation?", "Explain crop rotation", "How does crop rotation work?"],
+                  "responses": ["Crop rotation is the practice of growing different types of crops in the same area in sequential seasons to improve soil health, optimize nutrients, and combat pest and weed pressure."]
+                },
+                {
+                  "tag": "organic_farming",
+                  "patterns": ["What is organic farming?", "Define organic farming", "Explain organic farming methods"],
+                  "responses": ["Organic farming is a method of farming that avoids the use of synthetic chemicals and genetically modified organisms, instead relying on crop rotation, green manure, compost, and biological pest control."]
+                },
+                {
+                  "tag": "pesticides",
+                  "patterns": ["What are pesticides?", "How do pesticides work?", "What is the use of pesticides in farming?"],
+                  "responses": ["Pesticides are substances used to prevent, destroy, repel, or mitigate pests. They include herbicides for weeds, insecticides for insects, fungicides for fungi, and others."]
+                },
+                {
+                  "tag": "fertilizers",
+                  "patterns": ["What are fertilizers?", "Explain the use of fertilizers", "How do fertilizers help plants?"],
+                  "responses": ["Fertilizers are substances that are added to soil to supply essential nutrients to plants. They can be organic, like compost and manure, or inorganic, like chemical fertilizers."]
+                },
+                {
+                  "tag": "irrigation",
+                  "patterns": ["What is irrigation?", "Explain irrigation methods", "How does irrigation work?"],
+                  "responses": ["Irrigation is the artificial application of water to the soil to assist in growing crops. Common methods include surface irrigation, drip irrigation, and sprinkler irrigation."]
+                },
+                {
+                  "tag": "soil_health",
+                  "patterns": ["What is soil health?", "How to maintain soil health?", "Explain the importance of soil health"],
+                  "responses": ["Soil health refers to the state of soil in sustaining plant and animal productivity, maintaining environmental quality, and promoting plant and animal health. Practices like crop rotation, cover cropping, and reduced tillage help maintain soil health."]
+                },
+                {
+                  "tag": "green_manure",
+                  "patterns": ["What is green manure?", "Explain the use of green manure", "Benefits of green manure"],
+                  "responses": ["Green manure involves growing plants specifically to be plowed back into the soil to improve its fertility and structure. They add organic matter and nutrients, and help suppress weeds."]
+                },
+                {
+                  "tag": "cover_crops",
+                  "patterns": ["What are cover crops?", "Explain cover crops", "Benefits of cover crops"],
+                  "responses": ["Cover crops are plants grown primarily to benefit the soil and ecosystem rather than for crop yield. They prevent soil erosion, improve soil fertility, manage water, and suppress weeds."]
+                },
+                {
+                  "tag": "composting",
+                  "patterns": ["What is composting?", "Explain composting process", "Benefits of composting"],
+                  "responses": ["Composting is the process of decomposing organic matter, like leaves and food scraps, into nutrient-rich soil called compost. It's a sustainable way to recycle organic waste and improve soil health."]
+                },
+                {
+                  "tag": "precision_farming",
+                  "patterns": ["What is precision farming?", "Explain precision farming techniques", "Benefits of precision farming"],
+                  "responses": ["Precision farming involves using technology like GPS and remote sensing to manage variations in the field accurately. It optimizes field-level management regarding crop farming to improve efficiency and reduce waste."]
+                },
+                {
+                  "tag": "hydroponics",
+                  "patterns": ["What is hydroponics?", "Explain hydroponics", "How does hydroponics work?"],
+                  "responses": ["Hydroponics is a method of growing plants without soil, using mineral nutrient solutions in water. It's efficient in water use and allows for controlled growing environments."]
+                },
+                {
+                  "tag": "aquaponics",
+                  "patterns": ["What is aquaponics?", "Explain aquaponics system", "How does aquaponics work?"],
+                  "responses": ["Aquaponics combines aquaculture (raising fish) and hydroponics (growing plants without soil) in a symbiotic environment. Fish waste provides nutrients for plants, and plants help clean the water for fish."]
+                },
+                {
+                  "tag": "agroforestry",
+                  "patterns": ["What is agroforestry?", "Explain agroforestry", "Benefits of agroforestry"],
+                  "responses": ["Agroforestry is the practice of integrating trees and shrubs into agricultural landscapes to improve biodiversity, reduce erosion, and enhance soil fertility and crop yields."]
+                },
+                {
+                  "tag": "genetically_modified_crops",
+                  "patterns": ["What are genetically modified crops?", "Explain GM crops", "Benefits and risks of GM crops"],
+                  "responses": ["Genetically modified crops have had their DNA altered to exhibit desirable traits such as pest resistance, herbicide tolerance, or improved nutritional content. They can increase yields and reduce the need for chemical inputs."]
+                },
+                {
+                  "tag": "integrated_pest_management",
+                  "patterns": ["What is integrated pest management?", "Explain IPM", "Benefits of integrated pest management"],
+                  "responses": ["Integrated Pest Management (IPM) is an approach to controlling pests using a combination of techniques such as biological control, habitat manipulation, and use of resistant varieties. It aims to minimize the use of pesticides."]
+                },
+                {
+                  "tag": "no-till_farming",
+                  "patterns": ["What is no-till farming?", "Explain no-till farming", "Benefits of no-till farming"],
+                  "responses": ["No-till farming is an agricultural technique for growing crops without disturbing the soil through tillage. It helps prevent soil erosion, retain soil moisture, and improve soil health."]
+                },
+                {
+                  "tag": "vertical_farming",
+                  "patterns": ["What is vertical farming?", "Explain vertical farming", "Benefits of vertical farming"],
+                  "responses": ["Vertical farming is the practice of growing crops in vertically stacked layers, often in controlled indoor environments. It maximizes space use, reduces water consumption, and can be done year-round."]
+                },
+                {
+                  "tag": "permaculture",
+                  "patterns": ["What is permaculture?", "Explain permaculture principles", "Benefits of permaculture"],
+                  "responses": ["Permaculture is a sustainable farming design approach that mimics natural ecosystems. It focuses on creating self-sufficient, resilient agricultural systems through principles like diversity, soil health, and water management."]
+                },
+                {
+                  "tag": "sustainable_agriculture",
+                  "patterns": ["What is sustainable agriculture?", "Explain sustainable agriculture", "Principles of sustainable agriculture"],
+                  "responses": ["Sustainable agriculture aims to meet current food needs without compromising future generations' ability to meet theirs. It involves practices that preserve environmental health, economic profitability, and social equity."]
+                },
+                {
+                  "tag": "climate_smart_agriculture",
+                  "patterns": ["What is climate-smart agriculture?", "Explain climate-smart agriculture", "Benefits of climate-smart agriculture"],
+                  "responses": ["Climate-smart agriculture (CSA) involves farming practices that increase productivity and resilience to climate change while reducing greenhouse gas emissions. It includes techniques like improved crop varieties, efficient water management, and agroforestry."]
+                }
+              ]
+            
+          } 
+            
+            
+            
+            
+            
+      
+      
+    
+    
+    
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+    
+  
+
