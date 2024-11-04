@@ -2,20 +2,6 @@
 <img src="https://www.lifeofautomation.com/wp-content/uploads/2020/05/adobestock_194734459-1-2048x1365.jpeg" id="img" width="100%" height="auto">
 In this tutorial we deploy the chatbot I created in [this](https://github.com/python-engineer/pytorch-chatbot) tutorial with Flask and JavaScript.
 
-This gives 2 deployment options:
-- Deploy within Flask app with jinja2 template
-- Serve only the Flask prediction API. The used html and javascript files can be included in any Frontend application (with only a slight modification) and can run completely separate from the Flask App then.
-
-## Initial Setup:
-This repo currently contains the starter files.
-
-Clone repo and create a virtual environment
-```
-$ git clone https://github.com/python-engineer/chatbot-deployment.git
-$ cd chatbot-deployment
-$ python3 -m venv venv
-$ . venv/bin/activate
-```
 Install dependencies
 ```
 $ (venv) pip install Flask torch torchvision nltk
