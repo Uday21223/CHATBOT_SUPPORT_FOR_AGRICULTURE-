@@ -47,7 +47,7 @@ The **Agriculture Chatbot** provides instant support and information for farmers
    Before running the chatbot, test the model to ensure it responds correctly:
    ```bash
    python test.py
-```
+   ```
 8. Run the chatbot:
     ```bash
     python app.py
