@@ -1,5 +1,5 @@
 # Chatbot Deployment with Flask and JavaScript
-
+<img src="https://www.lifeofautomation.com/wp-content/uploads/2020/05/adobestock_194734459-1-2048x1365.jpeg" id="img" style="width: 24px; height: 16px;">
 In this tutorial we deploy the chatbot I created in [this](https://github.com/python-engineer/pytorch-chatbot) tutorial with Flask and JavaScript.
 
 This gives 2 deployment options:
