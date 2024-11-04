@@ -43,7 +43,8 @@ The **Agriculture Chatbot** provides instant support and information for farmers
 6. Train the model:
     ```bash
     python train.py
- 7. **Testing the Model**: 
+    ```
+7. **Testing the Model**: 
    Before running the chatbot, test the model to ensure it responds correctly:
    ```bash
    python chat.py
@@ -53,16 +54,8 @@ The **Agriculture Chatbot** provides instant support and information for farmers
     python app.py
     ```
 
-## Note
-Thank you for checking out the Agriculture Chatbot Project! Your interest in supporting farmers and agricultural practices is greatly appreciated.
-
-## Contact Information
-If you have any questions or need further assistance, please feel free to reach out:
+## Note & Contact Information
+Thank you for checking out the Agriculture Chatbot Project! Your interest in supporting farmers and agricultural practices is greatly appreciated. If you have any questions or need further assistance, please feel free to reach out:
 
 **Name**: Uday S B  
 **Email**: udaykanaka121@gmail.com
-
-
-
-
-
