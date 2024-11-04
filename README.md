@@ -23,7 +23,6 @@ the following command to test it in the console.
 $ (venv) python chat.py
 ```
 
-Now for deployment follow my tutorial to implement `app.py` and `app.js`.
 
 
 
