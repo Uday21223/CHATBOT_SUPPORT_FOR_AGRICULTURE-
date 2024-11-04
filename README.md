@@ -49,7 +49,7 @@ The **Agriculture Chatbot** provides instant support and information for farmers
     python app.py
     ```
 
-## Thank You Note
+## Note
 Thank you for checking out the Agriculture Chatbot Project! Your interest in supporting farmers and agricultural practices is greatly appreciated.
 
 ## Contact Information
